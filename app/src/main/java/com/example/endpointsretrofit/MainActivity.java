@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
 
                             // Procesa y muestra las películas aquí
 
-                                Toast.makeText(MainActivity.this, "Movie: "+ movies, Toast.LENGTH_SHORT).show();
+                                Toast.makeText(MainActivity.this, "Sinopsis: "+ movies, Toast.LENGTH_SHORT).show();
                             }
                         }
 
