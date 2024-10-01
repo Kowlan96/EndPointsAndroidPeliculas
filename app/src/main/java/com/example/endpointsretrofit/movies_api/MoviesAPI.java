@@ -17,7 +17,7 @@ public interface MoviesAPI {
     Call<MovieResponse> getMovie();
 
     //ROUTERS!!!! express.js
-    @GET("https://api.themoviedb.org/3/movie/550?api_key=61e0d26ead78a0b630a6ffe401e15a6a&language=es-ES\n")
+    @GET("movie/550?api_key=61e0d26ead78a0b630a6ffe401e15a6a&language=es-ES\n")
     Call<Movie> getDetallesMovie();
 
 }
